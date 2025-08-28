@@ -13,7 +13,7 @@ const initialState: AuthState = {
   loading: false,
   error: null,
 };
-
+// manage authentication state
 // Async thunks
 export const register = createAsyncThunk(
   'auth/register',

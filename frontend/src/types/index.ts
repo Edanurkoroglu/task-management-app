@@ -4,7 +4,6 @@ export interface User {
   createdAt: string;
   updatedAt: string;
 }
-
 export interface Task {
   id: number;
   title: string;

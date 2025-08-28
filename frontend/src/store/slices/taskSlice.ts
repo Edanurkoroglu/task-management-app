@@ -7,7 +7,7 @@ const initialState: TaskState = {
   loading: false,
   error: null,
 };
-
+// manages task-related state.
 // Async thunks
 export const fetchTasks = createAsyncThunk(
   'tasks/fetchTasks',

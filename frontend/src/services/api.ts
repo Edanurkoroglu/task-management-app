@@ -2,7 +2,8 @@ import axios from 'axios';
 import type { LoginCredentials, RegisterCredentials, CreateTaskData, UpdateTaskData, Task } from '../types';
 
 const API_BASE_URL = 'http://localhost:5000/api';
-
+// fetch data from backend
+// defining functions to interact with the backend endpoints.
 const api = axios.create({
   baseURL: API_BASE_URL,
 });
